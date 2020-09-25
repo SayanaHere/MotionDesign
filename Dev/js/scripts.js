@@ -1,3 +1,3 @@
-import * as Demo from './demo.js';
+import * as heart from './heart'
 
-console.log(Demo);
+console.log(heart);
