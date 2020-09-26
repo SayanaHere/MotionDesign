@@ -1,3 +1,3 @@
-import * as heart from "./heart.js;"
+// import * as heart from "./heart.js;"
 
-console.log(heart);
+// console.log(heart);
