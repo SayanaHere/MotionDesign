@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/CSS/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/CSS/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/Deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -73,7 +83,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/Dev/js/heart-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -220,15 +230,15 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/Dev/scss/sections/Heart.scss": {
+	"/Dev/scss/sections/_Heart.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/Dev/scss/sections/Heart.css",
+		"oA": 1,
+		"oAP": "/Dev/scss/sections/_Heart.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

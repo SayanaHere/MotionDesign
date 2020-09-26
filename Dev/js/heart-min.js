@@ -1,0 +1,1 @@
+var tl=new TimelineMax({repeat:98}),speed=.2;tl.to("#heart",.5,{scaleX:1.2,scaleY:1.3,ease:Elastic.easeOut,repeat:-1,repeatDelay:speed});
