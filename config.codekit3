@@ -46,28 +46,12 @@
 		"oAP": "/Deploy/scripts-min.js.map",
 		"oF": 0
 		},
-	"/Dev/content/Heart.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Dev/content/Heart.html",
-		"oF": 0
-		},
 	"/Dev/content/Heart.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/Dev/content/Heart.html",
-		"oF": 0
-		},
-	"/Dev/content/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Dev/content/index.html",
 		"oF": 0
 		},
 	"/Dev/content/index.kit": {
