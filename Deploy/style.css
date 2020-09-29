@@ -1,15 +1,12 @@
-/* =============
-   Heart
-============= */
-
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: rgb(247, 243, 243);
-  --main-bg-color: #b30013;
+  background-color: rgb(245, 245, 245);
+  --main-bg-color: #df2160f6;
   --main-height: 50px;
+  
 }
 
 .heart {
@@ -34,6 +31,7 @@ body {
 }
 .heart:before {
   transform: translateY(-30px);
+  
 }
 .heart:after {
   transform: translateX(30px) rotate(90deg);
@@ -42,7 +40,7 @@ body {
   animation: beat 1s infinite ease-in-out;
 }
 .heart.fill {
-  background-color: rgb(68, 65, 65);
+  background-color: rgb(12, 12, 12);
   animation: fill 2s infinite;
 }
 
@@ -53,6 +51,7 @@ body {
   50% {
     transform: scale(1.2) rotate(-45deg);
   }
+  
 }
 @keyframes fill {
   20% {
@@ -60,7 +59,7 @@ body {
   }
   40% {
     transform: translateY(-100px) rotate(-45deg) scale(1);
-    background-color:rgb(68, 65, 65);
+    background-color: #666;
   }
   60% {
     transform: translateY(-100px) rotate(310deg) scale(1.5);

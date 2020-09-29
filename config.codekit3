@@ -9,13 +9,13 @@
 	],
 "creatorBuild": "32186",
 "files": {
-	"/CSS/styles.css": {
+	"/Deploy/CSS/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/CSS/styles-min.css",
+		"oAP": "/Deploy/CSS/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -26,6 +26,17 @@
 		"oA": 0,
 		"oAP": "/Deploy/index.html",
 		"oF": 0
+		},
+	"/Deploy/Js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/Deploy/Js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/Deploy/scripts-min.js": {
 		"bF": 0,
@@ -38,13 +49,25 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/Deploy/scripts-min.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/Deploy/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/Deploy/scripts-min.js.map",
-		"oF": 0
+		"oAP": "/Deploy/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/Deploy/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/Deploy/style-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/Dev/content/Heart.kit": {
 		"cB": 0,
@@ -54,9 +77,9 @@
 		"oAP": "/Dev/content/Heart.html",
 		"oF": 0
 		},
-	"/Dev/content/index.kit": {
+	"/Dev/content/index.html": {
 		"cB": 0,
-		"ft": 2048,
+		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/Dev/content/index.html",
@@ -77,25 +100,6 @@
 		"oA": 0,
 		"oAP": "/Dev/global/scripts.html",
 		"oF": 0
-		},
-	"/Dev/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Dev/index.html",
-		"oF": 0
-		},
-	"/Dev/js/heart-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/Dev/js/heart-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/Dev/js/heart.js": {
 		"bF": 0,
@@ -275,31 +279,44 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/Dev/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/Dev/style-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/Dev/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/Dev/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
+		},
+	"/node_modules/gsap/CSSPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/gsap-core.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/gsap-core-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/package-lock.json": {
 		"ft": 524288,
