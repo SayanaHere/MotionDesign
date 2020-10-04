@@ -1,0 +1,108 @@
+/* =============
+    Section 2
+============= */
+#section-2 {
+    
+    background-color: $section-2-gray;
+    padding-top: 44px;
+
+    @include md {
+        padding-top: 0;
+    }
+
+    @include xl {
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-2-container .";
+    }
+
+
+    #section-2-container {
+        // padding-top: 44px;
+
+        @include md {
+            display: grid;
+            grid-template-columns: 60% auto;
+            grid-template-areas: "section-2-content section-2-image";
+            // padding: 50px 0;
+        }
+
+        @include lg {
+            grid-template-columns: 50% auto;
+            grid-template-areas: "section-2-image section-2-content";
+            grid-area: section-2-container;
+        }
+            
+        @include xl {
+            grid-area: section-2-container;
+        }
+        
+        section {
+            margin-bottom: 44px;
+
+            @include md {
+                margin: 0;
+            }
+
+            #section-2-content {
+                
+                padding: 0 15px;
+                grid-area: section-2-content;
+
+                h1 {
+                    text-align: center;
+                    font-size: rem-calc(35);
+
+                    @include md {
+                        text-align: left;
+                        margin-left: 44px;
+                    }
+
+                    @include lg {
+                        margin-top: 129px;
+                        margin-left: 135px;
+                        text-align: left;
+                    }
+                }
+
+                p {
+                    text-align: justify;
+                    font-size: rem-calc(17);
+
+                    @include md {
+                        margin-left: 44px;
+                        // margin-top: 2px;
+                        margin-right: 37px;
+                    }
+
+                    @include lg {
+                        margin-left: 135px;
+                        margin-top: 2px;
+                        margin-right: 130px;
+                    }
+                }
+            }
+
+        }
+        
+        aside {
+            background-image: url('../img/section-2/shoes.jpg');
+            background-size: cover;
+            height: 320px;
+
+            @include md {
+                grid-area: section-2-image;
+                height: 246px;
+            }
+    
+            @include lg {
+                height: 600px;
+            }
+    
+            @include xl {
+                height: 600px;
+            }
+        }
+    }
+
+}

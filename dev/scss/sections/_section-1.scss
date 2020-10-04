@@ -1,0 +1,70 @@
+/* =============
+    Section 1
+============= */
+#section-1 {
+    display: grid;
+    background-image: url('../img/section-1/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 559px;
+
+    @include md {
+        height: 694px;
+    }
+
+    @include lg {
+        height: 799px;
+    }
+    
+    
+    #title-container {
+        margin-top: 70px;
+
+        h1 {
+            text-align: center;
+            color: $section-1-h1;
+            font-size: rem-calc(24);
+            margin-bottom: 4px;
+
+            @include md {
+                font-size: rem-calc(38);
+            }
+
+            @include lg {
+                font-size: rem-calc(60);
+            }
+        }
+
+        p {
+            text-align: center;
+            color: $section-1-p;
+            font-size: rem-calc(16);
+
+            @include md {
+                font-size: rem-calc(25);
+            }
+
+            @include lg {
+                font-size: rem-calc(32);
+            }
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 140px;
+            width: 78px;
+
+            @include md {
+                width: 125px;
+                margin-top: 180px;
+            }
+
+            @include lg {
+                width: 170px;
+            }
+        }
+    }
+}

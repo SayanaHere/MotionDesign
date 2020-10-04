@@ -4,278 +4,442 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "B81526DE-730B-4B7C-ABA9-8AAB6D5B72C4"
+		"uuidString": "459227EB-60B0-44E6-982F-3B0C0EC6E2D7"
 		}
 	],
 "creatorBuild": "32186",
 "files": {
-	"/Deploy/CSS/styles.css": {
+	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/Deploy/CSS/styles-min.css",
+		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/Deploy/index.html": {
+	"/deploy/img/footer/facebook.png": {
+		"ft": 32768,
+		"iS": 624,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/footer/ig.png": {
+		"ft": 32768,
+		"iS": 1146,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/ig.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/footer/twitter.png": {
+		"ft": 32768,
+		"iS": 841,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/footer/youtube.png": {
+		"ft": 32768,
+		"iS": 774,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/youtube.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-1/circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/section-1/circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/section-1/hero.jpg": {
+		"ft": 16384,
+		"iS": 413135,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-2/shoes.jpg": {
+		"ft": 16384,
+		"iS": 60899,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/shoes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/gallery-1.jpg": {
+		"ft": 16384,
+		"iS": 32505,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/gallery-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/gallery-2.jpg": {
+		"ft": 16384,
+		"iS": 36715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/gallery-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/gallery-3.jpg": {
+		"ft": 16384,
+		"iS": 38831,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/gallery-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/Deploy/index.html",
+		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
-	"/Deploy/Js/scripts-min.js": {
+	"/deploy/js/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/Deploy/Js/scripts-min-min.js",
+		"oAP": "/deploy/js/scripts-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/Deploy/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"/design/assets/2342441.jpg": {
+		"ft": 16384,
+		"iS": 152155,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/Deploy/scripts-min-min.js",
+		"oAP": "/design/assets/2342441.jpg",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"/Deploy/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"/design/assets/4441.jpg": {
+		"ft": 16384,
+		"iS": 139189,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/Deploy/style-min-min.css",
+		"oAP": "/design/assets/4441.jpg",
 		"oF": 0,
-		"oS": 3
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"/Deploy/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"/design/assets/Letterpress-Perspective-B-Cards-MockUp-6001.jpg": {
+		"ft": 16384,
+		"iS": 84293,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/Deploy/style-min.css",
+		"oAP": "/design/assets/Letterpress-Perspective-B-Cards-MockUp-6001.jpg",
 		"oF": 0,
-		"oS": 3
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"/Dev/content/Heart.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
+	"/design/assets/picture1.jpg": {
+		"ft": 16384,
+		"iS": 1423110,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/Dev/content/Heart.html",
-		"oF": 0
+		"oAP": "/design/assets/picture1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"/Dev/content/index.html": {
+	"/design/assets/picture2.jpg": {
+		"ft": 16384,
+		"iS": 104961,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/design/assets/picture2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/design/content-quiz.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/Dev/content/index.html",
+		"oAP": "/design/content-quiz.sketch",
 		"oF": 0
 		},
-	"/Dev/global/head.kit": {
+	"/dev/Content/section-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/Dev/global/head.html",
+		"oAP": "/dev/Content/section-1.html",
 		"oF": 0
 		},
-	"/Dev/global/scripts.kit": {
+	"/dev/Content/section-2.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/Dev/global/scripts.html",
+		"oAP": "/dev/Content/section-2.html",
 		"oF": 0
 		},
-	"/Dev/js/heart.js": {
+	"/dev/Content/section-3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/Content/section-3.html",
+		"oF": 0
+		},
+	"/dev/Global/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/Global/footer.html",
+		"oF": 0
+		},
+	"/dev/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/index.html",
+		"oF": 0
+		},
+	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/Dev/js/heart-min.js",
+		"oAP": "/dev/js/scripts-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/Dev/js/scripts.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
+	"/dev/scss/base/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/base/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/base/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/base/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/base/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/base/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/components/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/components/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/components/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/helpers/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/helpers/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/layout/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/layout/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/layout/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_section-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-2.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_section-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-3.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/Deploy/scripts-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/Dev/scss/base/_base.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/base/_base.css",
+		"oAP": "/dev/scss/styles.css",
 		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/base/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/base/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/base/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/base/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/components/_buttons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/components/_buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/components/_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/components/_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/components/_navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/components/_navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/helpers/_mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/helpers/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/helpers/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/helpers/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/layout/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/layout/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/layout/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/layout/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/sections/_Heart.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/Dev/scss/sections/_Heart.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/Dev/scss/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/CSS/styles.css",
-		"oF": 2,
 		"oS": 0,
 		"sct": 0
 		},
@@ -284,39 +448,6 @@
 		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
-		},
-	"/node_modules/gsap/CSSPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/gsap-core.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/gsap-core-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/index-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/package-lock.json": {
 		"ft": 524288,
@@ -340,10 +471,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 622678777.30825806,
+	"creationDate": 623518579.40050697,
 	"displayValue": "MotionDesign",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_teal",
+	"iconImageName": "brackets-payne",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -1113,7 +1244,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {

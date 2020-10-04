@@ -1,0 +1,210 @@
+/* =============
+    section 3
+============= */
+#section-3 {
+    display: grid;
+    // grid-template-columns: 10px auto 10px;
+    margin-bottom: 70px;
+    
+    #section-title {
+        margin-top: 44px; 
+        h1 {
+            text-align: center;
+        }
+    }
+    ul {
+        margin-top: 6px;
+        display: grid;
+        grid-template-rows: repeat(3, 436px);
+        grid-gap: 22px;
+        margin: 10px;
+
+        @include md {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(2, 436px);
+            gap: 40px 10px;
+            grid-template-areas: "card-1 card-1 card-2 card-2"
+                                 ". card-3 card-3 ."
+        }
+
+        @include lg {
+            display: grid;
+            grid-template-rows: repeat(1, 523px);
+            // grid-template-columns: repeat(3, 300px);
+            grid-template-columns: auto 1fr 1fr 1fr auto;
+            // grid-template-areas: "card-1 card-2 card-3";
+            grid-template-areas: ". card-1 card-2 card-3 .";
+            gap: 30px;
+        }
+
+        @include xl {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        li {
+            // display: block;
+            // margin-left: auto;
+            // margin-right: auto;
+            background-color: $section-2-gray;
+            // margin: 10px;
+        }
+
+        #card-1 {
+            display: grid;
+            grid-template-rows: 200px auto;
+            grid-template-areas: "card-photo" 
+                                  "card-content";
+            
+            @include md {
+                grid-area: card-1;
+            }
+
+            @include lg {
+                grid-area: card-1;
+                grid-template-rows: 240px auto;
+            }
+            
+
+            #photo-1 {
+                grid-area: card-photo;
+                background-image: url('../img/section-3/gallery-1.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 200px;
+
+                @include lg {
+                    height: 240px;
+                }
+            }
+
+
+            >div {
+                grid-area: card-content;
+                margin: 0 20px;
+
+                h1 {
+                    text-align: center;
+                    font-size: rem-calc(24);
+                }
+    
+                h6 {
+                    text-align: justify;
+                    font-size: rem-calc(16);
+                    font-weight: 500;
+                }
+    
+                p {
+                    text-align: left;
+                    font-size: rem-calc(14);
+                }
+            }
+
+        }
+
+        #card-2 {
+            display: grid;
+            grid-template-rows: 200px auto;
+            grid-template-areas: "card-photo" 
+                                  "card-content";
+
+            @include md {
+                grid-area: card-2;
+            }
+
+            @include lg {
+                grid-area: card-2;
+                grid-template-rows: 240px auto;
+            }
+            
+            #photo-2 {
+                grid-area: card-photo;
+                background-image: url('../img/section-3/gallery-2.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 200px;
+
+                @include lg {
+                    height: 240px;
+                }
+            }
+
+
+            >div {
+                grid-area: card-content;
+                margin: 0 20px;
+
+                h1 {
+                    text-align: center;
+                    font-size: rem-calc(24);
+                }
+    
+                h6 {
+                    text-align: justify;
+                    font-size: rem-calc(16);
+                    font-weight: 500;
+                }
+    
+                p {
+                    text-align: left;
+                    font-size: rem-calc(14);
+                }
+            }
+
+        }
+
+        #card-3 {
+            display: grid;
+            grid-template-rows: 200px auto;
+            grid-template-areas: "card-photo" 
+                                  "card-content";
+            
+            @include md {
+                grid-area: card-3;
+            }   
+
+            @include lg {
+                grid-area: card-3;
+                grid-template-rows: 240px auto;
+            }
+
+            
+            #photo-3 {
+                grid-area: card-photo;
+                background-image: url('../img/section-3/gallery-3.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 200px;
+
+                @include lg {
+                    height: 240px;
+                }
+            }
+
+
+            >div {
+                grid-area: card-content;
+                margin: 0 20px;
+
+                h1 {
+                    text-align: center;
+                    font-size: rem-calc(24);
+                }
+    
+                h6 {
+                    text-align: justify;
+                    font-size: rem-calc(16);
+                    font-weight: 500;
+                }
+    
+                p {
+                    text-align: left;
+                    font-size: rem-calc(14);
+                }
+            }
+
+        }
+    }
+
+}
