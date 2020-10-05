@@ -15,7 +15,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/css/styles-min.css",
+		"oAP": "/deploy/CSS/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -142,7 +142,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min.js",
+		"oAP": "/deploy/Js/scripts-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -215,7 +215,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/Content/section-1.html",
+		"oAP": "/dev/content/section-1.html",
 		"oF": 0
 		},
 	"/dev/Content/section-2.kit": {
@@ -223,7 +223,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/Content/section-2.html",
+		"oAP": "/dev/content/section-2.html",
 		"oF": 0
 		},
 	"/dev/Content/section-3.kit": {
@@ -231,7 +231,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/Content/section-3.html",
+		"oAP": "/dev/content/section-3.html",
 		"oF": 0
 		},
 	"/dev/Global/footer.kit": {
@@ -251,12 +251,45 @@
 		"oF": 0
 		},
 	"/dev/js/scripts.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
+		"oAP": "/deploy/Js/scripts-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-1.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-1-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-2.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-2-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-3.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/sections/section-3-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -430,6 +463,16 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dev/scss/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -448,6 +491,39 @@
 		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
+		},
+	"/node_modules/gsap/CSSPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/gsap-core.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/gsap-core-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/package-lock.json": {
 		"ft": 524288,
