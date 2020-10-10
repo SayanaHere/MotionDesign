@@ -19,9 +19,9 @@ export function section3Animation(){
         markers: true,
         animation: section3TL,
         toggleActions: "restart none reverse none",
-        scrub: 1,
+        scrub: .5,
         trigger: "#section-3",
-        start:"top, 50%",
+        start:"top, 80%",
         end: "bottom 70%"
     });
 }
